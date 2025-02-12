@@ -1,0 +1,8 @@
+I completed the task probably about 35-40 mins. 
+There aren't any problems I encountered besides the labeling. 
+I was wondering because the result doesn't seem to be complete; like there's something wrong.
+But then I remembered to add labels for my form.
+I also added <br> tags so that it will not confuse me in my result.
+Thus, I also have a background in html so this really feels nostalgic to me.
+But in contrast as they say, "There's always room for improvement."
+You guys taught me many helpful tips and tricks so far. I still am amazed.
