@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 20px;
+    width: 100%;
+    max-width: 300px;
+    text-align: center;
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px 8px 0 0;
+}
+
+.card h2 {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+.card p {
+    font-size: 1em;
+    color: #666;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+header nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+header nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+header nav a:hover {
+    background-color: #444;
+}
+
+/* Desktop */
+@media (min-width: 1024px) {
+    .card {
+        width: 30%;
+    }
+
+    header nav a {
+        padding: 10px 30px;
+    }
+}
+
+/* Tablet */
+@media (min-width: 481px) and (max-width: 1023px) {
+    .card {
+        width: 45%;
+    }
+
+    header nav a {
+        padding: 10px 25px;
+    }
+}
+
+/* Phones */
+@media (max-width: 480px) {
+    .card {
+        width: 100%;
+    }
+
+    header nav a {
+        padding: 10px 15px;
+    }
+}

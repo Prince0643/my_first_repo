@@ -1,0 +1,45 @@
+* {
+    outline: 1px solid red;
+}
+
+body {
+    background-color: #010101;
+}
+
+.navbar {
+    margin-bottom: 20px;
+}
+
+.navbar-nav .nav-link,
+.navbar-brand {
+    color: white !important;
+}
+
+.container {
+    max-width: 960px;
+    padding-top: 20px;
+    border: 1px solid #444857;
+    background-color: #1D1E22;
+    border-radius: 10px;
+}
+
+.btn-custom {
+    background-color: #007bff;
+    color: white;
+}
+
+.form-control {
+    border-radius: 0.25rem;
+}
+
+.text {
+    color: white;
+}
+
+.text-center {
+    margin-top: 200px;
+    background-color: #1D1E22;
+    padding: 20px 0;
+    text-align: center;
+    color: white;
+}
